@@ -1,11 +1,11 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: rgb(235, 218, 218);
-}
-
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
 }
 
 .container {
@@ -14,19 +14,11 @@ body {
   margin-right: auto;
 }
 
-.header {
-
-}
-
 .header-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 50px;
-}
-
-.header-logo-link {
-
 }
 
 .header-nav {
@@ -68,11 +60,7 @@ body {
   border-radius: 50%;
 }
 
-.img-humburg {
-
-}
-
-.hero-section {
+.hero-box {
   display: flex;
   justify-content: space-between;
 }
@@ -162,10 +150,6 @@ body {
   align-items: center;
 }
 
-.servic-item-image {
-
-}
-
 .servic-item-title {
   font-weight: 500;
   font-size: 24px;
@@ -184,6 +168,8 @@ body {
 
 .portfolio-section {
   margin-top: 150px;
+  /* background: linear-gradient(180deg, rgba(187, 133, 255, 0.14) 0%, rgba(255, 177, 222, 0.14) 100%); */
+  /* filter: blur(150px); */
 }
 
 .portfolio-title {
